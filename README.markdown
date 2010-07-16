@@ -11,14 +11,14 @@
 
 ## Getting Started
 
-1 clone the project
+1. clone the project
   * type `cd ~/code`
   * type `git clone -o github git://github.com/ravinggenius/orms.git`
     * this will create a directory called orms (feel free to rename it)
-2 change into the project directory
-3 type `bundle install`
+2. change into the project directory
+3. type `bundle install`
   * this will make sure every dependency in Gemfile is resolved and available
-4 start hacking!
+4. start hacking!
   * if you have rails 3 installed system-wide, you can run `rails` to see available commands, otherwise use `script/rails`
 
 ## Coding Standards
@@ -40,7 +40,7 @@
 
 ## To Do
 
-* ...
+* add features and update to do and wish lists
 
 ## Wish List
 
