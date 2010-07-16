@@ -3,6 +3,7 @@ source :rubygems
 gem 'compass',               '~> 0.10'
 gem 'compass-susy-plugin',   '~> 0.7'
 gem 'data_mapper',           '~> 1.0'
+gem 'dm-rails',              '~> 1.0'
 gem 'haml',                  '~> 3.0'
 gem 'maruku',                '~> 0.6'
 gem 'rails',                 '~> 3.0.0.beta4'
