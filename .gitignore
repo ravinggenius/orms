@@ -24,6 +24,7 @@ public/stylesheets/*.css
 *.swp
 TAGS
 tmp/**/*
+!tmp/stylesheets/.gitkeep
 vendor/gems
 vendor/gems/*
 !vendor/gems/cache/
