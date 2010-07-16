@@ -1,0 +1,19 @@
+%h1 Listing orms
+
+%table
+  %tr
+    %th Name
+    %th
+    %th
+    %th
+
+  - @orms.each do |orm|
+    %tr
+      %td= orm.name
+      %td= link_to 'Show', orm
+      %td= link_to 'Edit', edit_orm_path(orm)
+      %td= link_to 'Destroy', orm, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New orm', new_orm_path

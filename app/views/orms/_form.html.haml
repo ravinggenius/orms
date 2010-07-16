@@ -1,0 +1,13 @@
+= form_for @orm do |f|
+  -if @orm.errors.any?
+    #errorExplanation
+      %h2= "#{pluralize(@orm.errors.count, "error")} prohibited this orm from being saved:"
+      %ul
+        - @orm.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .actions
+    = f.submit 'Save'
