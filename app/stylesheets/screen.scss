@@ -4,7 +4,7 @@
 
 // Imports --------------------------------------------------------------*/
 
-@import "defaults";
+@import 'defaults';
 
 /* Layout --------------------------------------------------------------*/
 
@@ -13,7 +13,7 @@
 // change '#page' to match your HTML container element(s)
 #page {
   @include container;
-  @include show-grid("grid.png"); }
+  @include show-grid('grid.png'); }
 
 // show-grid loads a 64+16x24 grid image by default
 // For other grid settings, run `compass grid-img 30+10x20`

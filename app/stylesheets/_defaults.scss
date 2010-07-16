@@ -5,8 +5,8 @@
 
 // Imports --------------------------------------------------------------*/
 
-@import "base";
-@import "susy/reset";
+@import 'base';
+@import 'susy/reset';
 
 /* Body --------------------------------------------------------------*/
 
@@ -125,7 +125,7 @@ p {
 }
 
 blockquote, q {
-  quotes : "" "";
+  quotes : '' '';
 }
 
 blockquote { 
@@ -140,7 +140,7 @@ blockquote {
 
 blockquote, q {
   &:before, &:after { 
-    content: "";
+    content: '';
   }
 }
 
@@ -249,7 +249,7 @@ label {
   font-weight: bold;
 }
 
-textarea, input:not([type="radio"]) {
+textarea, input:not([type='radio']) {
   // box-sizing will help us control the width of inputs
   // which are otherwise very hard to manage in the grid.
   @include box-sizing(border-box);

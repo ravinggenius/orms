@@ -4,7 +4,7 @@
 
 // Imports --------------------------------------------------------------*/
 
-@import "defaults";
+@import 'defaults';
 
 /* Print Defaults --------------------------------------------------------------*/
 
@@ -26,7 +26,7 @@
   }
   a:link:after, a:visited:after {
     // print target URLs next to their links
-    content: " (" attr(href) ") "; 
+    content: ' (' attr(href) ') '; 
   } 
 }
 
